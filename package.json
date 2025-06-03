@@ -1,0 +1,61 @@
+{
+  "name": "notsounusual",
+  "version": "2.2.0",
+  "description": "A React and Next.js package for dynamic text and UI transformation using AI with UTM parameter, user information, and theme support",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0 <=19.0.0",
+    "react-dom": ">=16.8.0 <=19.0.0"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "ai",
+    "text",
+    "transformation",
+    "ui",
+    "theme",
+    "utm",
+    "marketing",
+    "seo",
+    "dynamic",
+    "content",
+    "openrouter",
+    "gemini"
+  ],
+  "author": "Priyanshu Das",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyanshuDas01/UnseenWeb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PriyanshuDas01/UnseenWeb/issues"
+  },
+  "homepage": "https://notsounusualui.vercel.app/",
+  "landingPage": "https://notsounusualui.vercel.app/"
+} 

@@ -8,7 +8,7 @@ To run this project locally (for development or contribution), follow these step
 
 ```bash
 git clone https://github.com/PriyanshuDas01/notsounusual_NPM_Package.git
-cd notsounusual_NPM_Package
+
 ```
 ### 2. Install Dependencies
 ```bash

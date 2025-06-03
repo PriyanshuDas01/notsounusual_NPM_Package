@@ -1,6 +1,6 @@
 {
   "name": "notsounusual",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "A React and Next.js package for dynamic text and UI transformation using AI with UTM parameter, user information, and theme support",
   "type": "module",
   "main": "dist/index.js",
@@ -51,11 +51,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PriyanshuDas01/UnseenWeb.git"
+    "url": "https://github.com/PriyanshuDas01/notsounusual_NPM_Package"
   },
-  "bugs": {
-    "url": "https://github.com/PriyanshuDas01/UnseenWeb/issues"
-  },
+  
   "homepage": "https://notsounusualui.vercel.app/",
   "landingPage": "https://notsounusualui.vercel.app/"
 } 

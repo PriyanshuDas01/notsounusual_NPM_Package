@@ -1,5 +1,43 @@
-# NotSoUnusual
+---
 
+## 🛠️ Local Setup (for Contributors & Developers)
+
+To run this project locally (for development or contribution), follow these steps:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/PriyanshuDas01/notsounusual_NPM_Package.git
+cd notsounusual_NPM_Package
+```
+### 2. Install Dependencies
+```bash
+
+npm install
+# or
+yarn install
+```
+### 3. Set Environment Variables
+Create a .env.local file in the root directory and add your Gemini API key:
+
+```env
+Copy
+Edit
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
+```
+🔐 You can get your Gemini API key from Google MakerSuite -> // Get from https://makersuite.google.com/app/apikey
+
+### 4. Run the Dev Server
+```bash
+npm run dev
+# or
+yarn dev
+```
+Then open http://localhost:3000 in your browser to see the app.
+
+
+
+# NotSoUnusual (Package info)
 
 **Serve multiple dynamic webpages from a single URL!** A React and Next.js package that uses custom tags `<unseen>...</unseen>` to transform text and UI dynamically using AI, with support for UTM parameters, user information, and theme customization.
 
